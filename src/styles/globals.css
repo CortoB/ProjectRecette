@@ -2,3 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-image: url("/acceuil.webp");
+    background-size: cover;
+}
+
+.link{
+    background-color: white ;
+    color: black;
+    border-width: 2px;
+    border-color:#373234;
+    border-radius: 10px;
+}
+
+.link:active{
+    background-color: #94a3b8;
+}
+
+.link:hover{
+    background-color: #e2e8f0;
+    font-weight: bold;
+}
