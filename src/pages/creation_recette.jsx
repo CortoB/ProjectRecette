@@ -1,7 +1,13 @@
 import Navbar from "@/composents/Navbar"
 import Link from "next/link"
+import React, { useState } from "react"
 
 function Creation_Recette() {
+    const [recette, setRecette] = useState("")
+    const handleClick = function (e) {
+        e.preventDefault()
+        setRecette()
+    }
     return (
         <div>
             <Navbar />
